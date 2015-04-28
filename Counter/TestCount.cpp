@@ -7,7 +7,7 @@ using namespace std;
 
 void display(string name, UpDownCount &temp);
 
-int main(int argc, char* argv[])
+int main()
 {
 	//Run test cases.
 	UpDownCount a, b(120, 250, 5, 2), c(15, 20, 5, 10), d(-100, 100, 50, 50), e(-50, 50, 100, 70);
@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	display("c", c);
 	display("d", d);
 	display("e", e);
-
+	system("pause");
 	return 0;
 }
 

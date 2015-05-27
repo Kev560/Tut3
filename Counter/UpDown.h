@@ -7,7 +7,7 @@ class UpDownCount
 private:
 	int count, lowVal, highVal, incVal, decVal;
 public:
-	UpDownCount(int low = 0, int hight = 255, int inc = 1, int dec = 1); //default values set if noa arguments given to constructor.
+	UpDownCount(int low = 0, int hight = 255, int inc = 1, int dec = 1); //standard set
 	~UpDownCount();
 
 	//Overloading the increment and decrement operators
